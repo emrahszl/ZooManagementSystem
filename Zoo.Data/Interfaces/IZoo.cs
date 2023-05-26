@@ -8,6 +8,6 @@ namespace Zoo.Data.Interfaces
 {
     public interface IZoo
     {
-
+        string Name { get; }
     }
 }
