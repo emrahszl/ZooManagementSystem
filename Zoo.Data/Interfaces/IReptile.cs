@@ -8,6 +8,6 @@ namespace Zoo.Data.Interfaces
 {
     public interface IReptile //Sürüngen
     {
-
+        void LayEggs();
     }
 }

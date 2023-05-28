@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Zoo.Data.Interfaces
 {
-    public interface IBird
+    public interface IWhiteCollar
     {
-        void Fly();
+        void AttendMeetings();
     }
 }

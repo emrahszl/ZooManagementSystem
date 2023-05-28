@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Zoo.Data.Interfaces
 {
-    public interface IFish
+    public interface IAquaticAnimal
     {
-
+        void Swim();
     }
 }

@@ -9,10 +9,11 @@ namespace Zoo.Data.AbstractClasses
 {
     public abstract class Animal
     {
+        private int _age;
+
         public abstract int Id { get; }
 
         public Gender Gender { get; set; }
-        private int _age;
 
         public int Age
         {
@@ -33,6 +34,5 @@ namespace Zoo.Data.AbstractClasses
         }
 
         public abstract void Feeding();
-        public abstract void MakeSound();
     }
 }

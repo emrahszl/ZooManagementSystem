@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Zoo.Data.Enums;
 
 namespace Zoo.Data.Interfaces
 {
-    public interface IBird
+    public interface IBlueCollar
     {
-        void Fly();
+        void OperateEquipment(Equipment equipment);
     }
 }

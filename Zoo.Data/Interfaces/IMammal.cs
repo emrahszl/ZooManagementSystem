@@ -8,6 +8,6 @@ namespace Zoo.Data.Interfaces
 {
     public interface IMammal //Memeli
     {
-
+        void Nurse();
     }
 }

@@ -4,28 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Zoo.Data.AbstractClasses;
+using Zoo.Data.Interfaces;
 
-namespace Zoo.Data.Classes
+namespace Zoo.Data.Classes.AnimalClasses
 {
-    public class Shark  :Animal
+    public class Tiger : Animal, IMammal
     {
-        private static int _id = 700;
+        private static int _id = 90;
 
-        public Shark()
+        public Tiger()
         {
             _id++;
             Id = _id;
         }
 
         public override int Id { get; }
+
         public override void Feeding()
         {
-
+            Console.WriteLine("Kaplan besleniyor.");
         }
 
-        public override void MakeSound()
+        public void Nurse()
         {
-
+            Console.WriteLine("Kaplan doğuruyor.");
         }
     }
 }

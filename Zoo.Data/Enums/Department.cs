@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zoo.Data.Interfaces
+namespace Zoo.Data.Enums
 {
-    public interface IBird
+    public enum Department
     {
-        void Fly();
+        Management,
+        Veterinary,
+        Security
     }
 }
